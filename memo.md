@@ -1,4 +1,13 @@
-## RubyとPHPの違い
-- 整数同士の割り算
-  - Rubyは答えが整数になる
-  - PHPは少数以下も含んだ値を返す
+## PHPとRubyの違い
+- 四則演算
+  - 少数以下も含んだ値を返す
+  - 数値っぽい文字列を自動的に数値に変換して計算する
+
+```ruby
+'1' + 3
+#=> TypeError: no implicit conversion of Integer into String
+```
+
+```php
+echo ('20' / 4). PHP_EOL; // 5
+```
