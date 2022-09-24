@@ -30,10 +30,7 @@ echo ('20' / 4). PHP_EOL; // 5
   - 返り値を表現する時に`return`は必須
   - Rubyと同様関数の外で定義された変数は利用することができない
   - 型指定が可能
-    ```php
-    function sum(int $a, int $b): int
-    {
-      return $a + $b;
-    }
-    ```
+    - `null`か整数型などの場合は`?int`でいける
+    - 8.0.0以降の場合は`int or string`なども対応
+
 
