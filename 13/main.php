@@ -10,4 +10,3 @@ if ($score > 70) {
 } else {
   echo 'bad' .PHP_EOL;
 }
-
