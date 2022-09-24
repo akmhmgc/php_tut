@@ -4,7 +4,8 @@
 function sum($a, $b){
   return $a + $b ;
 
-  // return 
+  // return以降は実行されない
+  echo 'hoge';
 }
 
 echo sum(1,3); // 
