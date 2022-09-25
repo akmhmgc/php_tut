@@ -55,4 +55,15 @@ echo ('20' / 4). PHP_EOL; // 5
     - 子クラスは親クラスの型も引き継ぐので親クラスの宣言下で利用可能　 
   - 抽象クラス
     - 拡張クラス（子クラス）に定義おを強制するメソッドを作ることができる
+    ```php
+    abstract class People{
+      abstract public function greeting();
+    }
+
+    class Student extends People{
+      # greetingメソッドを定義しないとエラーが出る
+    }
+    ```
+
+    - 
 
