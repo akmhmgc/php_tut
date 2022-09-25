@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    image: php:8.0.0
+    tty: true
+    volumes:
+      - ./basic_php_objects:/home/basic_php_objects
