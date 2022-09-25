@@ -40,3 +40,5 @@ $posts[0]->show();
 $posts[1]->show();
 $posts[2]->show();
 $posts[2]->showSponsor();
+
+print_r($posts[2]);
