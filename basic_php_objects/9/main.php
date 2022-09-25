@@ -17,5 +17,6 @@ class Post
   }
 }
 
-$post = new Post(1);
+$post = new Post('hello');
 $post->show();
+
